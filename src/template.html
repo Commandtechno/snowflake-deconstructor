@@ -9,7 +9,7 @@
   <meta name="description" content="A simple snowflake deconstructer website created by Commandtechno" />
   <meta content="Snowflake Deconstructer" property="og:site_name" />
   <meta content="https://twemoji.bruhmomentlol.repl.co/%E2%9D%84?size=64" property="og:image" />
-  <meta content="{DESCRIPTION}" property="og:description" />
+  <meta content="{{ .description }}" property="og:description" />
 
   <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
   <link rel="manifest" href="assets/manifest.json" />
@@ -17,7 +17,7 @@
     @import url("styles.css");
   </style>
   <script type="module">
-    import './index.js';
+    import './index.ts';
   </script>
 </head>
 
