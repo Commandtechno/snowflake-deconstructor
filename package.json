@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "parcel build ./src/index.tmpl --dist-dir ./build --public-url /snowflake"
+    "build": "parcel build ./src/index.html --dist-dir ./build --public-url /snowflake"
   },
   "dependencies": {
     "parcel": "^2.6.2"
