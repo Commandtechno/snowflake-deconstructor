@@ -7,24 +7,19 @@
   <meta name="theme-color" content="#88C9F9" />
   <meta name="viewport" content="width=device-width, initial-scale=2.0" />
   <meta name="description" content="A simple snowflake deconstructer website created by Commandtechno" />
-  <meta content="Snowflake Deconstructer" property="og:site_name" />
-  <meta content="https://twemoji.bruhmomentlol.repl.co/%E2%9D%84?size=64" property="og:image" />
-  <meta content="{{ .description }}" property="og:description" />
+  <meta property="og:site_name" content="Snowflake Deconstructer" />
+  <meta property="og:image" content="assets/icon.png" />
+  <meta property="og:description" content="A simple snowflake deconstructer website created by Commandtechno" />
 
   <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
   <link rel="manifest" href="assets/manifest.json" />
-  <style>
-    @import url("styles.css");
-  </style>
-  <script type="module">
-    import './index.ts';
-  </script>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="index.js"></script>
 </head>
 
 <body>
   <div class="form__group field">
-    <input id="input" type="number" class="form__field" placeholder="Snowflake" name="snowflake" id="snowflake"
-      required />
+    <input id="input" type="number" class="form__field" placeholder="Snowflake" name="snowflake" id="snowflake" required />
     <label for="name" class="form__label">Snowflake</label>
     <p id="result"></p>
   </div>

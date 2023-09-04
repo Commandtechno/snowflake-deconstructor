@@ -1,12 +1,9 @@
 {
   "scripts": {
-    "build": "parcel build ./src/index.tmpl --dist-dir ./build --public-url /snowflake"
+    "build": "node build"
   },
   "dependencies": {
-    "parcel": "^2.6.2"
-  },
-  "devDependencies": {
-    "@parcel/packager-raw-url": "^2.6.2",
-    "@parcel/transformer-webmanifest": "^2.6.2"
+    "esbuild": "^0.19.2",
+    "esbuild-plugin-html-minify": "^1.0.0"
   }
 }

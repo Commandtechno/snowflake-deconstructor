@@ -5,7 +5,7 @@
   "theme_color": "#5865f2",
   "background_color": "#2c2f33",
   "description": "A simple snowflake deconstructer website created by Commandtechno",
-  "apple-touch-icon": "/snowflake/apple.png",
+  "apple-touch-icon": "/snowflake/icon.png",
   "icons": [
     {
       "src": "https://util.bruhmomentlol.repl.co/twemoji/%E2%9D%84?size=48",
